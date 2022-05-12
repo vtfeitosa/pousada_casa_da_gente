@@ -1,0 +1,145 @@
+* {
+    margin: 0%;
+    box-sizing: border-box;
+}
+:root {
+
+    --primary-color: #F99E47;/* yellow */
+    --secondary-color: #384633; /* green */
+
+    --subtitle: #F99E47; /* yellow */
+    --title: #495057; /* grey */
+    --paragraph: #495057; /* grey */
+    --footer: #fff;
+    -prominence: #fff;
+    --boxes: grey;
+
+    font-size: 62.5%; /* 1rem =10px*/
+}
+
+body{
+    width: 35.7rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+
+
+    font-family: 'DM Sans';
+    color: var(--paragraph);
+    text-align: center;
+}
+
+header {
+    width: 35.7rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+
+}
+
+img{
+    width: 35.7rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    
+    margin-bottom: 3.2rem;
+
+}
+
+p{
+    font-size: 1.8rem;
+    color: var(--paragraph);
+
+
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: var(--footer);
+}
+
+h2{
+    font-size: 3.0rem;
+    color: var(--title);
+
+}
+
+h3{
+    font-size: 1.4rem;
+    color: var(--subtitle);
+
+}
+
+h4{
+    font-size: 2.4rem;
+    color: var(--title);
+
+}
+
+h5{
+
+}
+
+fieldset h2{
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+fieldset h3{
+    font-size: 1.4rem;
+    color:#fff;
+}
+fieldset h4 {
+    font-size: 2.4rem;
+    color: var(--title);
+
+}
+
+fieldset p {
+    font-size: 1.6rem;
+    color: var(--paragraph);
+
+}
+
+button {
+    background: var(--secondary-color);
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+
+    border: none;
+    border-radius: 4rem;
+
+    margin-bottom: 2.5rem;
+    margin-inline: auto;
+
+    height: 5.2rem;
+    width: 31.3rem;
+
+    text-transform: uppercase;
+    font-size: 1.4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.benefits{
+    width: 32.7rem;
+    height: 130.6rem;
+
+    margin-inline: auto;
+}
+
+.benefit{
+    width: 32.7rem;
+    height: 23rem;
+
+    background-color: grey;
+
+}
