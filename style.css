@@ -98,30 +98,6 @@ h4{
 
 }
 
-h5{
-
-}
-
-fieldset h2{
-    font-size: 3.5rem;
-    color: #fff;
-}
-
-fieldset h3{
-    font-size: 1.4rem;
-    color:#fff;
-}
-fieldset h4 {
-    font-size: 2.4rem;
-    color: var(--title);
-
-}
-
-fieldset p {
-    font-size: 1.6rem;
-    color: var(--paragraph);
-
-}
 
 button {
     background: var(--secondary-color);
@@ -149,12 +125,12 @@ button {
 
 .benefits{
     width: auto;
-    height: 130.6rem;
+    height: 37.5rem;
 
     background-color: hsl(226, 53%, 31%);
 
     margin-inline: 1rem;
-    padding: 1rem
+    padding: 1rem;
 }
 
 .benefits h2 {

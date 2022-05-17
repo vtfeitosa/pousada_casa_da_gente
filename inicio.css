@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+}
 
-.menu {
+header {
     width: 100%;
-    height: 2.5rem;
+    height: auto;
 
     background-image: url(./assets/images/madeira.png);
+    background-color: #532e25;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 0%;
 
     margin-bottom: 0%;
     margin: 0%;
-    padding-left: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-
-    display: inline-block;
 
     color: #FFFAF1;
     font-family: 'DM Sans', sans-serif;
@@ -23,8 +23,16 @@
     overflow: hidden;
 }
 
-.menu a {
+header a {
     color: #FFFAF1;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 2rem;
+    padding-right: 60%;
 }
 
 body{
@@ -49,7 +57,7 @@ body{
 
 .placa {
     width: auto;
-    height: 30rem;
+    height: 26rem;
 
     margin-top: 0%;
 
@@ -61,13 +69,11 @@ body{
     text-align: right;
     margin: 0%;
 
-    padding-right: 2rem;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
 }
 
 footer {
-display: flex;
+    display: flex;
+    justify-content: space-between;
 
     background-color: #F99E47;
     color: #FFFAF1;
@@ -86,4 +92,8 @@ display: flex;
 footer a {
     color: #FFFAF1;
   
+}
+
+footer h1 {
+    margin: 0%;
 }
