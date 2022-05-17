@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+.menu {
+    width: 100%;
+    height: 7rem;
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    margin-bottom: 0%;
+    margin: 0%;
+
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: inline-block;
+
+    color: #FFFAF1;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+.menu a {
+    color: #FFFAF1;
+}
+
+footer {
+    background-color: #F99E47;
+    color: #FFFAF1;
+}

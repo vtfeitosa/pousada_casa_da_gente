@@ -18,7 +18,7 @@
 }
 
 body{
-    width: 35.7rem;
+    width: auto;
     margin-right: auto;
     margin-left: auto;
     padding-right: 2rem;
@@ -30,24 +30,42 @@ body{
     text-align: center;
 }
 
-header {
-    width: 35.7rem;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 2rem;
-    padding-left: 2rem;
+.menu {
+    width: 100%;
+    height: 7rem;
 
+    background-image: url(./assets/images/madeira.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    margin-bottom: 0%;
+    margin: 0%;
+
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: inline-block;
+
+    color: #FFFAF1;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5rem;
 }
 
-img{
-    width: 35.7rem;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 2rem;
-    padding-left: 2rem;
-    
-    margin-bottom: 3.2rem;
+.menu a {
+    color: #FFFAF1;
+}
 
+aside {
+    margin: rem;
+}
+
+.capa{
+    width: auto;
+    height: 50rem;
+    background-image: url(https://github.com/vtfeitosa/pousada_casa_da_gente/blob/master/assets/images/capa.jpg?raw=true);
+    background-size: cover;
+    
+    margin: 0%;
 }
 
 p{
@@ -130,16 +148,55 @@ button {
 }
 
 .benefits{
-    width: 32.7rem;
+    width: auto;
     height: 130.6rem;
 
-    margin-inline: auto;
+    background-color: hsl(226, 53%, 31%);
+
+    margin-inline: 1rem;
+    padding: 1rem
+}
+
+.benefits h2 {
+    color: #fff;
+
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+.benefits h3 {
+    color: #fff;
+
+    padding-top: 2rem;
 }
 
 .benefit{
-    width: 32.7rem;
-    height: 23rem;
+    width: auto;
+    height: auto;
 
-    background-color: grey;
+    margin: 1rem;
+    background-color: #fff;
 
+}
+
+.placa {
+    width: auto;
+    height: 45rem;
+
+    margin-top: 0%;
+
+    padding-top: 0;
+    padding-left: 0rem;
+
+}
+
+footer {
+    background-color: #F99E47;
+    color: #FFFAF1;
+
+    margin: 0%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    font-family: 'DM Sans', sans-serif;
 }
