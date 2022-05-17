@@ -8,21 +8,21 @@ https://github.com/vtfeitosa
     <head>
         <meta charset="UTF-8">
         <title>Sobre</title>
-        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="sobre.css"/>
     </head>
-    <body>
+    <article>
         <section>
             <audio autoplay>
                 <source src="/Geese Outside.mp3" type="audio/mpeg">
             </audio>
         </section>
-        <header class="menu">
-            <nav>
+        <header>
+            <nav class="menu">
                 <aside>
-                    <a href="C:\Users\Vitória\Documents\PROGRAMAÇÃO\Sites\Pousada Casa da Gente\inicio.html">Início</a>
+                    <a href="http://127.0.0.1:5500/inicio.html">Início</a>
                 </aside>
                 <aside>
-                    <a href="C:\Users\Vitória\Documents\PROGRAMAÇÃO\Sites\Pousada Casa da Gente\sobre.html">Sobre</a>
+                    <a href="http://127.0.0.1:5500/sobre.html">Sobre</a>
                 </aside>
                 <aside>
                     <a href="C:\Users\Vitória\Documents\PROGRAMAÇÃO\Sites\Pousada Casa da Gente\sobre.html">Acomodações</a>
@@ -35,7 +35,10 @@ https://github.com/vtfeitosa
                 </aside>
             </nav>
         </header>
-        <section>
+        <section class="capa">
+            <img src="./assets/images/placa (2).png" alt="placa de madeira com nome da pousada" class="placa">
+        </section>
+        <article class="introdução">
             <h2>Conforto e Aconchego</h2>
             <p> Localizada no Alto do Moura em Caruaru, a Pousada Casa da Gente 
                 ofereceum jardim amplo e ambientes integrados com a natureza.
@@ -46,16 +49,22 @@ https://github.com/vtfeitosa
                 </svg>
                 Entre em contato conosco!
             </button>
-        </section>
-        <section>
-            <h3>SOBRE  NOSSAS ACOMODAÇÔES</h3>
-            <h2>Ambiente Agradável</h2>
-            <p> Os Quartos da Pousada dispõem de WC com chuveiro aquecido e secador de cabelo, além de TV e Ar-Condicionado. </br>
-                Algumas unidades incluem varanda térrea. Todos os quartos incluem roupa de cama e toalhas.
-            </p>
-            <img src="./assets/images/quarto_1.jpg" alt="foto do interior do quarto número 1" width="400px">                
-        </section>
-        <section class="benefits">
+        </article>
+        <article class="acomodações">
+            <aside>
+                <img src="./assets/images/quarto_1.jpg" alt="foto do interior do quarto número 1" width="400px" class="img_qt">                
+            </aside>
+            <aside class="bloco">
+                <h3 class="subtitle">SOBRE  NOSSAS ACOMODAÇÔES</h3>
+                <h2 class="title">Ambiente Agradável</h2>
+                <p class="description">
+                    Os Quartos da Pousada dispõem de WC com chuveiro aquecido e secador de cabelo, além de TV e Ar-Condicionado. </br>
+                    <br/>
+                    Algumas unidades incluem varanda térrea. Todos os quartos incluem roupa de cama e toalhas.
+                </p>
+            </aside>
+        </article>
+        <article class="benefits">
             <h3>SERVIÇOS</h3>
             <h2>O que Oferecemos?</h2>
             <div>
@@ -92,23 +101,28 @@ https://github.com/vtfeitosa
                 </div>
             </div>
             
-        </section>
-        <img src="./assets/images/entrada_qt_5.jpg" alt="entrada do quarto número 5 com mesa e duas cadeiras rústicas no terraço"width="400px">
-        <section>
-            <h3>ALGUMAS AVALIAÇÕES</h3>
-            <h2>Atendimento Hospitaleiro e de Excelência</h2>
-            <img src="./assets/images/avaliação (1).jpg" alt="Avaliação do Hóspede Mario “Nunca me senti tão confortável numa hospedagem que não em minha casa. Tem uma varanda com redes de frente a um jardim lindo, melhor lugar da pousada! Ficar lá dá paz! Pretendo voltar!
-            Funcionários simpáticos e atenciosos.”">
-            <img src="./assets/images/avaliação (2).jpg" alt="Avaliação da Hóspede Viviane “Simplesmente adorei tudo! Casal anfitrião nota 10, quarto limpo, espaço acolhedor, energético e revigorante. Tem padaria próxima com preços super acessível e pode usar a cozinha para preparar lanches rápidos na pousada”">
-            <img src="./assets/images/avaliação (5).jpg" alt="Avaliação da Hóspede Renata “O sr Roberto e sua esposa são execelentes anfitriões. Super recomendo . A pousada é super bem localizada . Funcionários excelentes.” ">                                                      
-        </section>
-        <section>
-            <h2>Nos faça uma visita!</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3948.0921828786813!2d-36.032358985839736!3d-8.293624785708962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a98cf689c959cb%3A0x4c2d399c1245e731!2sPousada%20Casa%20Da%20Gente!5e0!3m2!1spt-BR!2sbr!4v1651734768636!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <p> R. Mestre Vitalino, 290, Alto do Moura,  Caruaru - PE
-            </p>
-        </section>
-        <img src="./assets/images/entrada_qt_6.jpg" alt="entrada do quarto número 6 com banco de madeira rústico no terraço e uma rede de balaço vermelha" width="600px">
+        </article>
+            <aside>
+                <img src="./assets/images/entrada_qt_5.jpg" alt="entrada do quarto número 5 com mesa e duas cadeiras rústicas no terraço"width="400px">
+                <section class="bloco">
+                    <h3>ALGUMAS AVALIAÇÕES</h3>
+                    <h2>Atendimento Hospitaleiro e de Excelência</h2>
+                    <img src="./assets/images/avaliação (1).jpg" alt="Avaliação do Hóspede Mario “Nunca me senti tão confortável numa hospedagem que não em minha casa. Tem uma varanda com redes de frente a um jardim lindo, melhor lugar da pousada! Ficar lá dá paz! Pretendo voltar!
+                    Funcionários simpáticos e atenciosos.”">
+                    <img src="./assets/images/avaliação (2).jpg" alt="Avaliação da Hóspede Viviane “Simplesmente adorei tudo! Casal anfitrião nota 10, quarto limpo, espaço acolhedor, energético e revigorante. Tem padaria próxima com preços super acessível e pode usar a cozinha para preparar lanches rápidos na pousada”">
+                    <img src="./assets/images/avaliação (5).jpg" alt="Avaliação da Hóspede Renata “O sr Roberto e sua esposa são execelentes anfitriões. Super recomendo . A pousada é super bem localizada . Funcionários excelentes.” ">                                                      
+                </section>
+                <section>
+                    <h2>Nos faça uma visita!</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3948.0921828786813!2d-36.032358985839736!3d-8.293624785708962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a98cf689c959cb%3A0x4c2d399c1245e731!2sPousada%20Casa%20Da%20Gente!5e0!3m2!1spt-BR!2sbr!4v1651734768636!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p> R. Mestre Vitalino, 290, Alto do Moura,  Caruaru - PE
+                    </p>
+                </section>
+            </aside>
+            <aside>
+                <img src="./assets/images/entrada_qt_6.jpg" alt="entrada do quarto número 6 com banco de madeira rústico no terraço e uma rede de balaço vermelha" width="600px">     
+            </aside>
+        </article>
     </body>
     <footer>
         <h1>Pousada Casa da Gente</h1>
