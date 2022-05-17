@@ -7,3 +7,20 @@ Próximo de vários pontos turísticos, Você pode conhecê-lo pelo Instagra:
 https://www.instagram.com/pousadacasadagente/
 
 Atenciosamente, Vitória Feitosa.
+
+---
+History of Versions
+___
+
+Version 1.1
+Update on May | 05 | 2022 
+---
+Version 1.2
+Update on May | 11 | 2022 
+
+---
+Version 1.3
+![](https://github.com/vtfeitosa/pousada_casa_da_gente/blob/master/assets/versions/v1.3_inicio.jpg?raw=true)
+![](https://github.com/vtfeitosa/pousada_casa_da_gente/blob/master/assets/versions/v1.3_inicio_footer.jpg?raw=true)
+
+Last update on May | 17 | 2022 
