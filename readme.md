@@ -8,13 +8,15 @@ https://www.instagram.com/pousadacasadagente/
 
 Atenciosamente, Vitória Feitosa.
 
----
+___
 History of Versions
 ___
 
 Version 1.1
 Update on May | 05 | 2022 
+
 ---
+
 Version 1.2
 Update on May | 11 | 2022 
 
