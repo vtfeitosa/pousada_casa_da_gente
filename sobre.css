@@ -20,7 +20,7 @@ header {
     height: auto;
 
     background-image: url(./assets/images/madeira.png);
-    background-color: #532e25;
+    background-color: hsla(10, 20%, 30%, 1); /*Atividade CSS - M7 Q2 */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0%;
@@ -28,11 +28,15 @@ header {
     margin-bottom: 0%;
     margin: 0%;
 
-    color: #FFFAF1;
+    color: #FFFAF1; /*Atividade CSS - M7 Q2*/
     font-family: 'DM Sans', sans-serif;
     font-size: 1.2rem;
 
     overflow: hidden;
+}
+
+header a {
+    color: #FFFAF1;
 }
 
 header a {
@@ -58,6 +62,7 @@ body{
     width: auto;
     height: 35rem;
     background-image: linear-gradient(rgba(33, 61, 32, 0.459),rgba(0, 0, 0, 0.274) 100%), url(https://github.com/vtfeitosa/pousada_casa_da_gente/blob/master/assets/images/capa.jpg?raw=true);
+    /*Atividade CSS - M7 Q2 */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0%;
@@ -85,7 +90,7 @@ footer {
     display: flex;
     justify-content: space-between;
 
-    background-color: #F99E47;
+    background-color: #F99E47; /*Atividade CSS - M7 Q2 */
     color: #FFFAF1;
 
     margin: 0%;
@@ -218,35 +223,59 @@ button {
 
 }
 
-.bloco1 {
-    width: 50vw;
+.bloco_conteudo {
+    width: 50%;
     padding: 3rem;
     background-color: #ececec;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-.bloco2 {
-    width: 50vw;
-    padding-inline: 2rem;
+.bloco_foto {
+    width: 50%;
+    height: auto;
     background-color: #FFFAF1;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2rem;
+
+    overflow: hidden;
 }
+
+.foto_conteudo {
+    width: 40%;
+
+    margin: 2rem;
+
+    box-sizing: auto;
+
+    overflow: hidden;
+}
+
+
 
 .benefits_bloco {
     width: auto;
     height: auto;
 
-    background-color: hsl(226, 53%, 31%);
+    background-color: hsl(226, 53%, 31%);  /*Atividade CSS - M7 Q2*/
 
     margin-top: 0%;
     padding-top: 1rem;
     padding-right: 2rem;
     padding-left: 2rem;
     padding-bottom: 1rem;
+
 }
 
 .benefits_bloco h2 {
-    color: #fff;
+    color: #fff; /*Atividade CSS - M7 Q2*/
     text-align: center;
     font-size: 2.5rem;
 
@@ -268,6 +297,8 @@ button {
 
     margin: 0%;
     color: var(--paragraph);
+    justify-content: center;
+    align-items: center;
 }
 
 .benefits_bloco div p {
@@ -280,22 +311,16 @@ button {
 
     margin: 1rem;
     padding: 1.5rem;
-    background-color: #fff;
+    background-color: #fff; /*Atividade CSS - M7 Q2*/
 
     overflow: hidden;
 }
 
 .avaliações {
     display: flex;
-    background-color: #ffffff;
+    background-color: #ffffff; /*Atividade CSS - M7 Q2*/
     text-align: left;
     justify-content: center;
-}
-
-.avaliações aside img {
-    width: 50%;
-    height: cover;
-
 }
 
 
@@ -303,12 +328,6 @@ button {
     height: 37rem;
     display: flex;
     text-align: left;
-    justify-content: center;
 
     margin: 0%;
-}
-
-.imagem_ambiente {
-    margin: 2rem;
-
 }
